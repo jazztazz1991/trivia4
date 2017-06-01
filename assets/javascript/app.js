@@ -46,7 +46,7 @@ var questions = {
 var time, right = 0, wrong = 0;
 var answer1, answer2, answer3, answer4, answer5, answer6, answer7;
 
-var audio = new Audio("https://media.githubusercontent.com/media/jazztazz1991/trivia4/master/assets/audio/hpShort.mp3");
+var audio = new Audio("https://media.githubusercontent.com/media/jazztazz1991/trivia4/master/assets/audio/song2.mp3");
 
 function runGame(){
     $("#questions").html("You will have 30 seconds to answer each question.");
