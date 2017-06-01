@@ -46,7 +46,7 @@ var questions = {
 var time, right = 0, wrong = 0;
 var answer1, answer2, answer3, answer4, answer5, answer6, answer7;
 
-var audio = new Audio("assets/audio/hpShort.mp3");
+var myAudio1 = new Audio("assets/audio/hpShort.mp3");
 
 function runGame(){
     $("#questions").html("You will have 30 seconds to answer each question.");
@@ -55,7 +55,8 @@ function runGame(){
 
 runGame();
 $("#start").on("click", function(){
-        audio.play();
+    myAudio1 = new Audio("assets/audio/hpShort.mp3");
+        myAudio1.play();
         q1Funct();
         $("#start").toggleClass("hide");
     });
