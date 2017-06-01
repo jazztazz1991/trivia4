@@ -46,20 +46,19 @@ var questions = {
 var time, right = 0, wrong = 0;
 var answer1, answer2, answer3, answer4, answer5, answer6, answer7;
 
-var myAudio1 = new Audio("assets/audio/hpShort.mp3");
+var audio = new Audio("https://media.githubusercontent.com/media/jazztazz1991/trivia4/master/assets/audio/hpShort.mp3");
 
 function runGame(){
     $("#questions").html("You will have 30 seconds to answer each question.");
-    
-}
-
-runGame();
-$("#start").on("click", function(){
-    myAudio1 = new Audio("assets/audio/hpShort.mp3");
-        myAudio1.play();
+    $("#start").on("click", function(){
+        audio.play();
         q1Funct();
         $("#start").toggleClass("hide");
     });
+}
+
+runGame();
+
 function q1Funct(){
    $("#form1").toggleClass("hide");
    $("#nextZone").toggleClass("hide");
