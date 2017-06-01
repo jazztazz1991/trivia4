@@ -6,6 +6,10 @@ body{
     color: bisque;
     font-family: 'Lora', serif;
 }
+#triviaBox, a:hover{
+    
+    cursor: url(../images/wand.png), auto !important;
+}
 
 header{
     text-align: center;
@@ -41,3 +45,12 @@ header{
 #nextZone{
     float: right;
 }
+html, a:hover {cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), progress !important;}
+button, a:hover {cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), progress !important;}
+#triviaBox, a:hover {cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), progress !important;}
+input, a:hover {cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), progress !important;}
+
+
+
+
+ 
