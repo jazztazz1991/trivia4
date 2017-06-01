@@ -50,15 +50,15 @@ var audio = new Audio("assets/audio/hpShort.mp3");
 
 function runGame(){
     $("#questions").html("You will have 30 seconds to answer each question.");
-    $("#start").on("click", function(){
+    
+}
+
+runGame();
+$("#start").on("click", function(){
         audio.play();
         q1Funct();
         $("#start").toggleClass("hide");
     });
-}
-
-runGame();
-
 function q1Funct(){
    $("#form1").toggleClass("hide");
    $("#nextZone").toggleClass("hide");
