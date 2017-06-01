@@ -50,8 +50,8 @@ var audio = new Audio("assets/audio/song2.mp3");
 
 function runGame(){
     $("#questions").html("You will have 30 seconds to answer each question.");
-    audio.play();
     $("#start").on("click", function(){
+        audio.play();
         q1Funct();
         $("#start").toggleClass("hide");
     });
