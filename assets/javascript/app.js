@@ -48,10 +48,9 @@ var answer1, answer2, answer3, answer4, answer5, answer6, answer7;
 
 var audio = new Audio("assets/audio/song2.mp3");
 
-    audio.play();
 function runGame(){
     $("#questions").html("You will have 30 seconds to answer each question.");
-    
+    audio.play();
     $("#start").on("click", function(){
         q1Funct();
         $("#start").toggleClass("hide");
